@@ -1,0 +1,8 @@
+Searching for params...
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 1, 'max_leaf_nodes': 8}
+5-fold Validation score: 0.930163043478261
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 2, 'max_leaf_nodes': 32}
+5-fold Validation score: 0.9459239130434781
+

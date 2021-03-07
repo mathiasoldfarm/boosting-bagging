@@ -1,29 +1,143 @@
+Base train score: 0.9994565217391305
+Base test score: 0.9185667752442996
+
+Bagging train score: 0.8084239130434783
+Bagging test score: 0.7774158523344191
+
 Searching for params...
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 1, 'max_leaf_nodes': 8}
-5-fold Validation score: 0.930163043478261
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 200, 'max_depth': 24, 'max_leaf_nodes': 4}
+5-fold Validation score: 0.8964673913043478
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 2, 'max_leaf_nodes': 32}
-5-fold Validation score: 0.9459239130434781
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 200, 'max_depth': 64, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9323369565217391
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 32}
-5-fold Validation score: 0.9508152173913043
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 1000, 'max_depth': 24, 'max_leaf_nodes': 128}
+5-fold Validation score: 0.9326086956521739
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 8, 'max_leaf_nodes': 2}
-5-fold Validation score: 0.9358695652173914
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 1000, 'max_depth': 4, 'max_leaf_nodes': 128}
+5-fold Validation score: 0.9203804347826086
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 2, 'max_leaf_nodes': 16}
-5-fold Validation score: 0.9459239130434781
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 200, 'max_depth': 24, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9326086956521739
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 1, 'max_leaf_nodes': 2}
-5-fold Validation score: 0.930163043478261
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 24, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9317934782608696
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 200, 'max_depth': 12, 'max_leaf_nodes': 128}
+5-fold Validation score: 0.9320652173913044
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 64, 'max_leaf_nodes': 4}
+5-fold Validation score: 0.8980978260869564
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 1000, 'max_depth': 64, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9334239130434782
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 12, 'max_leaf_nodes': 24}
+5-fold Validation score: 0.9285326086956524
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 200, 'max_depth': 24, 'max_leaf_nodes': 4}
+5-fold Validation score: 0.8986413043478262
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 100, 'max_depth': 24, 'max_leaf_nodes': 24}
+5-fold Validation score: 0.9269021739130435
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 12, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9307065217391305
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 64, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.93125
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 12, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.93125
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 1000, 'max_depth': 64, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9317934782608696
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 100, 'max_depth': 12, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9315217391304348
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 64, 'max_leaf_nodes': 24}
+5-fold Validation score: 0.9277173913043478
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 100, 'max_depth': 4, 'max_leaf_nodes': 64}
+5-fold Validation score: 0.9206521739130433
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 500, 'max_depth': 12, 'max_leaf_nodes': 128}
+5-fold Validation score: 0.93125
+
+Best params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'n_bags': 1000, 'max_depth': 64, 'max_leaf_nodes': 64}
+Best 5-fold validation score: 0.9334239130434782
+
+Bagging with best params, test score: 0.9359391965255157
+STUMP train score: 0.8
+STUMP test score: 0.7687296416938111
+
+Adaboost train score: 0.94375
+Adaboost test score: 0.9413680781758957
+Searching for params...
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 1, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.9426630434782609
 
 Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 8, 'max_leaf_nodes': 16}
-5-fold Validation score: 0.9497282608695651
+5-fold Validation score: 0.9491847826086955
 
-Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 2, 'max_leaf_nodes': 8}
-5-fold Validation score: 0.9442934782608695
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 1, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.9358695652173914
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 2, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.9358695652173914
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 1, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.9396739130434781
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 8, 'max_leaf_nodes': 32}
+5-fold Validation score: 0.9491847826086957
 
 Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 500, 'max_depth': 1, 'max_leaf_nodes': 2}
 5-fold Validation score: 0.9396739130434781
 
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 8, 'max_leaf_nodes': 8}
+5-fold Validation score: 0.9486413043478261
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.9426630434782609
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 2, 'max_leaf_nodes': 8}
+5-fold Validation score: 0.9442934782608695
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 2, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.9404891304347827
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 4, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.9358695652173914
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.9426630434782609
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 8, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.930163043478261
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 1, 'max_leaf_nodes': 32}
+5-fold Validation score: 0.9358695652173914
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 8, 'max_leaf_nodes': 2}
+5-fold Validation score: 0.930163043478261
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 100, 'max_depth': 1, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.930163043478261
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 200, 'max_depth': 1, 'max_leaf_nodes': 8}
+5-fold Validation score: 0.9358695652173914
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.9497282608695652
+
+Params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 16}
+5-fold Validation score: 0.951086956521739
+
+Best params: {'base': <class 'sklearn.tree._classes.DecisionTreeClassifier'>, 'iterations': 1000, 'max_depth': 8, 'max_leaf_nodes': 16}
+Best 5-fold validation score: 0.951086956521739
+
+Adaboost with best params, test score: 0.9543973941368078
